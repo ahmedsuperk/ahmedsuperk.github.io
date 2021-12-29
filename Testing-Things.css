@@ -1,0 +1,39 @@
+.test{
+    padding: 20px;
+    border: black 10px solid;
+    margin: 40px;
+    font-size: 30px;
+}
+.box1,.box2{
+    height: 100px;
+    width: 100px;
+}
+.box1{
+    margin: 30px;
+    background-color: cyan;
+}
+.box2{
+    padding: 30px;
+    background-color: red;
+}
+.wrapper{
+    background-color: green;
+}
+p{
+    font-size: 30px;
+}
+.ol{
+    font-size: 20px;
+    list-style-type:lower-roman;
+    background-color: yellow;
+}
+
+.outside{
+    list-style-position: outside;
+    background-color: coral;
+} 
+
+.inside{
+    list-style-position: inside;
+    background-color: coral;
+} 

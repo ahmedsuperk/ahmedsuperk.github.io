@@ -1,0 +1,104 @@
+.list{
+    color:rgb(170, 14, 105);
+  }
+  .description{
+    color:forestgreen;
+  }
+
+a[href="https://www.google.com"] {
+  text-decoration: none;
+
+}
+
+h1:hover {
+  background-color: red;
+}
+
+#microsoftLink {
+  color: brown;
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div p {
+  display: none;
+  background-color: aquamarine;
+  padding: 10px;
+}
+ol.special,ul.special{
+  color: crimson;
+}
+
+div:hover p {
+  display: block;
+}
+
+span li em{
+  color: rgb(90, 20, 220);
+}
+h1+p{
+  font-size: 200%;
+}
+a:hover{
+  color: darkgoldenrod;
+  text-decoration: none;
+}
+ h2+p .rare{
+  color: rgb(184, 11, 175);
+ font-size: 100%;
+  background-color:black;
+}
+#heading{
+  font-size: 200%;
+  color: brown;
+}
+p#two{
+  font-size: 150%;
+  color:crimson;
+  background-color: yellow;
+}
+li[class]{
+  font-size: 150%;
+}
+li[class="z"]{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: blueviolet;
+}
+li[class~="l"]{
+  font-size: 400%;
+}
+*{
+  list-style-type:square;
+}
+.legendary{
+font-size: 600%;
+font-weight: lighter;
+font-style: oblique;
+}
+.makhan{
+  background-image: url(img/mrbeast.png);
+  background-repeat: repeat-y;
+  background-position-x: center;
+  background-attachment: fixed;
+  background-size: 400px;
+  height: 2000px;
+  width: 1000px;
+}
+.butter{
+  text-transform: uppercase;
+  text-decoration:line-through;
+  text-shadow: 3px 3px 2px green 2px 2px 1px;
+  text-align: center;
+}
+.nugget{
+  line-height: 4;
+  color: red;
+  text-indent: 10%;
+  word-spacing: 4;
+}
+
+
+
+

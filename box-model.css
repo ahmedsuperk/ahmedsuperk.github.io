@@ -1,0 +1,41 @@
+
+.percent{
+    font-size: 200%;
+}
+
+.em{
+    font-size: 2em;
+}
+.rem{
+    font-size: 3rem;
+}
+.vw{
+    font-size: 2vw;
+}
+.vh{
+    font-size: 5vh;
+}
+.vmin{
+    font-size: 5vmin;
+}
+.vmax{
+    font-size: 3vmax;
+}
+.centimeters{
+    font-size: 3cm;
+}
+.millimeters{
+    font-size: 10mm;
+}
+.inches{
+    font-size: 2in;
+}
+.pixels{
+    font-size: 20px;
+}
+.points{
+    font-size: 30pt;
+}
+.picas{
+    font-size: 10pc;
+}

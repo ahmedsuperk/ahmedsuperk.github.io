@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing-other-things</title>
+    <style>
+        .color{
+            color: red;
+            font-size: 150%;
+        }
+        p{
+            font-size: 200%;
+        }
+        .Class-1 a{
+            color: inherit;
+        }
+        .Class-2 a{
+            color: initial;
+        }
+        .Class-3 a{
+            color: unset;
+        }
+        .test{
+            color: blue !important;
+        }
+        .test{
+            color: green;
+        }
+        .Overflow-No-2{
+            width: 300px;
+            height: 300px;
+            border: 6px solid black;
+            margin: 10px;
+        }
+        img{
+            height: 300px;
+            width: 300px;
+            object-fit: fill;
+        }
+        .Overflow{
+            border: 6px solid black;
+            width: 200px;
+            height: 300px;
+            overflow: visible;
+        }
+    </style>
+</head>
+<body>
+    <h1>Default</h1>
+    <p>As you can see that when i added the color red to the body 
+    tag in the style tag the default ones color changed to red and the link stayed blue.</p>
+    <h1>Inherited</h1>
+    <p>As you can also so see that when i added the color red to the body tag in the style tag
+    the inherited one became red but its link also became red because i added the inherit style in the style tag.</p>
+    <h1>Initial</h1>
+    <p> It basically depends on the browser that what the initial value of the color property will be.</p>
+    <h1>Unset</h1>
+    <p>Unset basically works just like inherited because in unset 
+    inheritance was yes so that is why it works just like inherited.
+    But if inheritance was not yes than it would not be like inherited.</p>
+   <ul class="color">
+       <li>Default <a href="#">Link</a>color</li>
+       <li class="Class-1">Inherited <a href="#">Link</a>color</li>
+       <li class="Class-2">Initial <a href="#">Link</a>color</li>
+       <li class="Class-3">Unset <a href="#">Link</a>color</li>
+   </ul>
+   <h1>Testing important</h1>
+   <p class="test">Which color is going to effect this text.</p>
+   <p>Going to see which color effects the text above. the color blue with the important or the color green.</p>
+   <h1>Testing image overflow</h1>
+   <div class="Overflow-No-2">
+    <img src="img/teaching-guide7.jpg" alt="a picture of study material">
+</div>
+   <h1>Testing Overflow</h1>
+   <div class="Overflow">
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla molestias veritatis vel repellat veniam saepe numquam labore similique obcaecati hic maiores asperiores.</p>
+   </div>
+</body>
+</html>

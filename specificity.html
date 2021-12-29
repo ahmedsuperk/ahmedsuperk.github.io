@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* ID Selector has the highest specificity priority in browser so if multiple selectors are
+        applied to same HTML elements then ID Selector will be applied by browser*/
+        ul#MyList li{
+            color: aquamarine;
+        }
+
+        /* Class selector has second highest specificity in browser */
+        ul#MyList li.two{
+            color: red;
+        }
+        /* Element selector has least specificity in browser */
+        li{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <ul id="MyList">
+        <li>One</li>
+        <li class="two">Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+    </ul>
+</body>
+</html>
