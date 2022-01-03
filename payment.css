@@ -1,3 +1,6 @@
+hr{
+    border: 2px solid black;
+}
 *{
     box-sizing: border-box;
 }
@@ -31,4 +34,16 @@ fieldset{
 }
 .Main-Heading{
     text-align: center;
+}
+input[type="submit"] {
+    background-color: turquoise;
+    color: black;
+    padding: 15px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover {
+    background-color: turquoise;
 }
