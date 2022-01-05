@@ -30,7 +30,7 @@ textarea{
 }
 fieldset{
     background-color: whitesmoke;
-    border: 2px solid lightgray;
+    border: 1px solid black;
 }
 .Main-Heading{
     text-align: center;
@@ -45,5 +45,5 @@ input[type="submit"] {
     width: 100%;
 }
 input[type="submit"]:hover {
-    background-color:  royalblue;
+    background-color:  royalblue; 
 }
