@@ -1,0 +1,26 @@
+.circle{
+    clip-path: circle(50% at 50% 50%);
+    width: 30%;
+}
+div{
+    width: 170px;
+    height: 110px;
+    padding: 30px;
+    background-color: green;
+}
+.content-box{
+    border: 10px solid blue;
+    box-sizing: content-box;
+    /* Total width: 170px + (2 * 30px) + (2 * 10px) = 250px 
+    Total height: 110px + (2 * 30px) + (2 * 10px) = 190px 
+    Content box width = 170px
+    Content box height = 80px */
+}
+.border-box{
+    border: 10px solid red;
+    box-sizing: border-box;
+    /* Total width: 170px - (2 * 30px) - (2 * 10px) = 90px
+    Total height: 110px - (2 * 30px) - (2 * 10px) = 30px
+    Content box width = 170px
+    Content box height = 80px */
+}
