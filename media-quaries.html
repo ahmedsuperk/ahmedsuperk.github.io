@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsiveness</title>
+    <style>
+        @media screen and (min-width: 300px) {
+        .min-width{
+            color: blue;
+        }
+        p{
+            font-size: 30px;
+        }
+        @media screen and (max-width: 1600px){
+        .max-width{
+            color: red;
+        }    
+        }
+        @media (orientation: landscape) {
+        .landscape{
+            color: orange
+        }
+        }    
+        @media (orientation: portrait) {
+        .portrait{
+            color: purple;
+        }
+        }
+        }
+        @media screen and (max-width: 1600px) and (orientation: landscape) {
+        .Combination-No1{
+            color: crimson;
+        }    
+        }
+        @media screen and (min-width: 500px) and (orientation: portrait) {
+        .Combination-No2{
+            color: chartreuse;
+        }    
+        }
+        @media screen and (max-width: 800px),
+        screen and (orientation: landscape) {
+        .The-choice{
+            color: cyan;
+        }    
+        }
+        @media not all and (orientation: landscape) {
+            .Not-all{
+                color: slateblue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Min-Width:</h1>
+   <p>The min-width on the class below is 300px which means if it goes below 300px width the colour blue will not 
+    apply but if it is even at 300px or above the blue colour we apply on the class of paragraph below.</p>
+    <p class="min-width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, earum! Dicta, nulla molestiae! Obcaecati aliquid modi, quisquam totam ullam porro?</p>
+    <h1>Max-Width:</h1>
+    <p>The max-width on the class below is 1600px which means if the width goes above 1600px then whe colour red will 
+    not apply on the text below but if it is below 1600px then the colour red will apply on the text below. </p>
+    <p class="max-width">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, molestias repellat voluptatibus quibusdam obcaecati exercitationem placeat deserunt corrupti, cumque numquam voluptatum blanditiis esse non atque!</p>
+    <h1>Landscape:</h1>
+   <h2>(Change the orientation from portrait to landscape by inspecting to see the effect. Currently the orientation is landscape.)</h2>
+    <p>The screen orientation in the below text is landscape which means that if the orientation is changed to portrait then whatever style we had applies on the text below will not show effect
+    on the text below but if the orientation is landscape then whatever style we had applied will show effect on the text below.</p>
+    <p class="landscape">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iusto possimus voluptatem reiciendis harum quam consequuntur, dolor error eaque quibusdam! Hic earum dolore vel dolorum.</p>
+    <h1>Portrait:</h1>
+    <h2>(Change the orientation from landscape to portrait by inspecting to see the effect and also if u change the orientation from landscape to portrait the effect on the portrait will show but the effect
+    of the landscape above will not be shown same with if u change back into landscape the effect on portrait will not be show but the effect on landscape will be shown.)</h2>
+    <p>The screen orientation below is portrait which means that if the orientation is changed to landscape then whatever style we had applied on the text below will not show effect
+    on the text below but if the orientation is portrait then whatever style we had applied will show effect on the text below.</p>
+    <p class="portrait">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, vel. Reprehenderit qui minus necessitatibus, beatae, harum at illum sed deleniti est explicabo eveniet voluptas sit!</p>
+    <h1>Combination-No1</h1>
+    <p>The combination below is the combination of max-width 1600px and orientation landscape which means if the max-width is above 1600px the style that we had applied will not show effect even if the orientation is landscape which is the same with
+     the orientation if the orientation is changed to portrait then even if the max-width is under the 1600px the style that we had applied will still not be shown.</p>
+    <p class="Combination-No1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad illo obcaecati, ratione animi corrupti eveniet quo suscipit fugit tempore nostrum dolores tenetur? Excepturi, repudiandae voluptates.</p>
+    <h1>Combination-No2</h1>
+    <p>(Change the orientation from landscape to portrait by inspecting to see the effects and also by changing it to portrait the style that we had applied their effect on Combination-No2 will be shown but the style that we had applied
+     on Combination-No1 wil not be shown because of portrait and also it might not show the effect of the styles of some of the ones above like for example the (landscape) which is above. )</p>
+    <p>The combination below is the cobination of min-width 500px and orientation portrait which means if min-width is below 500px the style that we had applied will not be shown even if the orientation is portrait which is the same with
+    the orientation if the orientation is changed to portrait then even if the min-width is under 500px the style that we had applied will still not be shown.</p>
+    <p class="Combination-No2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad illo obcaecati, ratione animi corrupti eveniet quo suscipit fugit tempore nostrum dolores tenetur? Excepturi, repudiandae voluptates.</p>
+    <h1>The-choice</h1>
+    <p>If the max-width goes above 800px and in portrait then the effect will not apply but if is is below 800 in portrait then the effect will apply and also if the orientation is landscape but it goes above 900px the effect of the style will not go away because we had put landscape and the option 
+    was between landscape or 800px so if it is in landscape but it goes above 900px even if it goes to 3000px in landscape or even more the effect of the style will still be shown.</p>
+    <p class="The-choice">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti, necessitatibus quis maxime asperiores quam adipisci, aliquid consequuntur quasi sint labore non, ullam similique hic earum!</p>
+    <h1>Not-all</h1>
+    <p>If the screen orientation is in landscape then the effect of the style will not work because we had written that for example:
+     @media not all and (orientation: landscape) the (not all) with the orientation of landscape means that if the orientation is in landscape the effect of the 
+     style that we had written will not be applied because we writted (not all). If we had writted only (all) then the effect would be applied on both orientation 
+     landscape and portrait but we writted (not all) so just because we writted that the effect would only be applied on portrait and currently
+     the orientation is in landscape but if you want to see the effect of the style that i had writted then inspect and change the orientation from landscape to portrait then the effect will be applied of the style we had written.</p>
+    <p class="Not-all">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem possimus voluptates, soluta qui veritatis voluptas nihil ex accusamus. Maiores ut voluptate illo quae qui culpa.</p>
+</body>
+</html>
