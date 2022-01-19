@@ -41,25 +41,26 @@ p {
   float: left;
 }
 
-#side ul {
-  list-style: none;
-}
+    #side ul {
+        list-style: none;
+        padding-inline-start: 3px; /* This property is used to control left padding of Email icon */
+    }
 
-#side ul li a {
-  color: red;
-  text-decoration: none;
-  padding: 3px 0;
-  display: block;
-}
+    #side ul li a {
+        color: red;
+        text-decoration: none;
+        padding: 3px 0;
+        display: block;
+    }
 
 #main-content {
   width: 65%;
   float: right;
 }
 
-@media all and (min-width: 1) {
+@media all and (min-width: 1000px) {
   #side ul li a:after {
-    content: "(" attr(data-email) ")";
+    content: " (" attr(data-email) ")";
     font-size: 11px;
     font-style: italic;
     color: #666;
@@ -68,14 +69,14 @@ p {
 
 @media all and (max-width: 1000px) and (min-width: 700px) {
   #side ul li a:before {
-    content: "Email:";
+    content: "Email: ";
     font-style: italic;
     color: #666;
   }
 }
 @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
   #side ul li a {
-    padding-left: 21px;
-    background: url(../web-development/img/email-icon.png) left center no-repeat;
+    padding-left: 25px;
+    background: url(img/email.png) left center no-repeat;
   }
 }
