@@ -1,0 +1,41 @@
+* {
+  text-align: center;
+  text-shadow: 4px;
+  box-sizing: border-box;
+}
+.head_box {
+  overflow: hidden;
+  background-color: blue;
+  border: solid red;
+}
+.head {
+  float: left;
+  background-color: green;
+}
+@media screen and (max-width: 1300px) {
+  .head {
+    width: 100%;
+    height: 120px;
+    font-size: 40px;
+    border: 2px solid blue;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+  .head {
+    width: 50%;
+    height: 120px;
+    font-size: 40px;
+    border: 2px solid green;
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .head {
+    width: 25%;
+    height: 120px;
+    font-size: 40px;
+    border: 2px solid green;
+    padding: 20px;
+  }
+}
