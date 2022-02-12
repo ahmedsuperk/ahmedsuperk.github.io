@@ -1,0 +1,41 @@
+.image {
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+  margin: 15px;
+  width: 1100px;
+  height: 120px;
+  border-radius: 20px;
+  background-color: rgb(0, 255, 106);
+  padding: 1em;
+}
+
+#image-1 {
+  background-color: lightblue;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#image-2 {
+  background-color: lightblue;
+  float: left;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
+#image-3 {
+  background-color: lightblue;
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+
+#image-4 {
+  background-color: lightblue;
+  float: left;
+  float: right;
+  width: 100px;
+  height: 100px;
+}
