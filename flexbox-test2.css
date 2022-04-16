@@ -1,0 +1,67 @@
+  body{
+            background-color: white;
+        }
+        .item-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .item {
+
+            height: 600px;
+            width: 370px;
+            margin: 25px;
+            margin-top: -30px;
+            flex-wrap: wrap;
+            border: 2px solid red;
+
+        }
+
+        #item-1,
+        #item-3 {
+
+            margin-top: 60px;
+        }
+
+        #img-1,
+        #img-2,
+        #img-3 {
+
+            height: 250px;
+            width: 370px;
+
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-size-adjust: 25%;
+        }
+
+        #button {
+
+            background-color: white;
+            border: 1.5px solid blue;
+            width: 250px;
+            height: 50px;
+            margin-left: 60px;
+            margin-top: 30px;
+            transition-duration: 0.3s;
+            cursor: pointer;
+
+        }
+        #button:hover{
+            background-color: green;
+            color: white;
+        }
+        span{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+        }
