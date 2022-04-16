@@ -1,0 +1,131 @@
+body {
+    background-color: white
+}
+
+.flex-container {
+
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+
+
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.flex-container-in {
+
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+
+.inrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.flex-item {
+    align-self: flex-start;
+    background-color: blue;
+    color: white;
+    margin: 2px;
+    padding: 2px;
+
+
+}
+
+.flex-item-in {
+    align-self: flex-start;
+    background-color: white;
+    color: blue;
+    margin: 2px;
+    padding: 2px;
+    padding-bottom: 10px;
+
+}
+
+#a,
+#b,
+#c {
+    width: 345px;
+    height: 120px;
+}
+
+#d,
+#e,
+#f,
+#g {
+    width: 250px;
+
+}
+
+#h,
+#i,
+#j,
+#k,
+#l {
+    width: 200px;
+
+}
+
+#m,
+#n,
+#o {
+    width: 115px;
+
+}
+
+#p,
+#q,
+#r,
+#s {
+    width: 86px;
+
+}
+
+#t,
+#u,
+#v,
+#w,
+#x {
+    width: 69px;
+
+}
+
+#a,
+#b,
+#c,
+#d,
+#e,
+#f,
+#g,
+#h,
+#i,
+#j,
+#k,
+#l,
+#m,
+#n,
+#o,
+#p,
+#q,
+#r,
+#s,
+#t,
+#u,
+#v,
+#w,
+#x {
+    border: 2px;
+    border-radius: 2px;
+}
