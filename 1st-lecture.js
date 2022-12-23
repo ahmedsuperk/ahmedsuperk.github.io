@@ -1,3 +1,4 @@
+/*
 let b = document.querySelector('button');
 
 b.addEventListener('click', showMsg);
@@ -13,4 +14,21 @@ bb.addEventListener('click', inputMsg);
 function inputMsg() {
     let name = prompt();
     alert("My name is " + name);
+}
+*/
+
+let b = document.querySelector('button');
+
+b.addEventListener('click', mathTablePrinter);
+
+function inputMsg() {
+    let tableNumber = prompt("Enter a table number:");
+    
+    let tableEntry = "";
+
+    for (i = 1; i < 11; i++){
+        tableEntry += tableNumber + " x " + i + " = " + tableNumber * i + "\n";        
+    }
+
+    alert(tableEntry);
 }
